@@ -2,6 +2,7 @@ import { useRouter } from "../router";
 
 export const ScreenTwo = () => {
   const router = useRouter();
+
   return (
     <>
       <actionbar title="Screen Two" />
@@ -10,7 +11,7 @@ export const ScreenTwo = () => {
           height: "100%",
           width: "100%",
           flexDirection: "column",
-          justifyContent: "center",
+          justifyContent: "center", 
           alignItems: "center",
         }}
       >
